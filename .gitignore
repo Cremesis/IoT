@@ -10,3 +10,4 @@ contiki-z1.*
 *.sky
 *.z1
 symbols.*
+*.class

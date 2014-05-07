@@ -49,6 +49,7 @@ public class HelloResource extends ResourceBase {
 				}
 			}
 		}
+		exchange.respond(ResponseCode.BAD_REQUEST, "CIAO, mancano i parametri");
 	}
 
 }
