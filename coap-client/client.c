@@ -78,7 +78,7 @@ PROCESS_THREAD(reset_process, ev, data)
   static uip_ipaddr_t server_ipaddr;
   static coap_packet_t request[1];
   static const char* service_url = "hello?numero=12";
-  uip_ip6addr(&server_ipaddr, 0xaaaa, 0, 0, 0, 0, 0, 0, 2);
+  uip_ip6addr(&server_ipaddr, 0xaaaa, 0, 0, 0, 0xc30c, 0, 0, 2);
   //uip_ip6addr(&server_ipaddr, 0xfe80, 0, 0, 0, 0xc30c, 0, 0, 2);
 
   coap_receiver_init();
