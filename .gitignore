@@ -1,0 +1,12 @@
+# Temporary files
+*~
+
+# Compiled files
+obj_native/
+obj_sky/
+obj_z1/
+contiki-sky.*
+contiki-z1.*
+*.sky
+*.z1
+symbols.*
