@@ -88,7 +88,7 @@ PROCESS_THREAD(reset_process, ev, data)
   while(1) {
     PROCESS_WAIT_EVENT_UNTIL(ev == sensors_event && data == &button_sensor);
     printf("*** Ma ciao!\n");
-    coap_init_message(request, COAP_TYPE_CON, COAP_GET, 0);
+    coap_init_message(request, COAP_TYPE_CON, COAP_PUT, 0);
     coap_set_header_uri_path(request, service_url);
     coap_set_header_uri_query(request, "numero=12");
     COAP_BLOCKING_REQUEST(&server_ipaddr, REMOTE_PORT, request, client_chunk_handler);
