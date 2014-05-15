@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 
 import ch.ethz.inf.vs.californium.server.Server;
 
-public class Server1 {
+public class CaliforniumServer {
 
 	public static void main(String[] args) {
 		Server server = new Server();
