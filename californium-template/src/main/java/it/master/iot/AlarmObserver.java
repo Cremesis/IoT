@@ -1,4 +1,4 @@
-package ch.ethz.inf.vs.californium.examples;
+package it.master.iot;
 
 import java.applet.Applet;
 import java.applet.AudioClip;

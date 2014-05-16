@@ -1,4 +1,4 @@
-package ch.ethz.inf.vs.californium.examples;
+package it.master.iot;
 
 import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;
