@@ -1,6 +1,5 @@
 package it.master.iot;
 
-import java.net.InetSocketAddress;
 import java.util.concurrent.Executors;
 
 import ch.ethz.inf.vs.californium.server.Server;

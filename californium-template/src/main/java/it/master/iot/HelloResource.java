@@ -1,20 +1,13 @@
 package it.master.iot;
 
-import java.net.InetSocketAddress;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.json.JSONObject;
-
 import ch.ethz.inf.vs.californium.coap.CoAP.ResponseCode;
-import ch.ethz.inf.vs.californium.coap.OptionSet;
 import ch.ethz.inf.vs.californium.coap.Request;
 import ch.ethz.inf.vs.californium.coap.Response;
 import ch.ethz.inf.vs.californium.network.Exchange;
-import ch.ethz.inf.vs.californium.observe.ObserveManager;
-import ch.ethz.inf.vs.californium.observe.ObserveRelation;
-import ch.ethz.inf.vs.californium.observe.ObservingEndpoint;
 import ch.ethz.inf.vs.californium.server.resources.ResourceBase;
 
 public class HelloResource extends ResourceBase {

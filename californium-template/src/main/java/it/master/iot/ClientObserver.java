@@ -1,22 +1,12 @@
 package it.master.iot;
 
-import java.applet.Applet;
-import java.applet.AudioClip;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.logging.Level;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import ch.ethz.inf.vs.californium.CaliforniumLogger;
-import ch.ethz.inf.vs.californium.Utils;
 import ch.ethz.inf.vs.californium.coap.MediaTypeRegistry;
 import ch.ethz.inf.vs.californium.coap.Request;
-import ch.ethz.inf.vs.californium.coap.Response;
 import ch.ethz.inf.vs.scandium.ScandiumLogger;
 
 public class ClientObserver {
